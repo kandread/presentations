@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Mapping water like never before</title>
+<meta name="author" content="Kostas Andreadis"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+
+<link rel="stylesheet" href="custom.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/zenburn.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide" data-background="./images/cover.jpg" data-background-size="contain" data-background-opacity="0.5">
+<h1 class="title">Mapping water like never before</h1><h2 class="subtitle">How the SWOT satellite mission can transform hydrology</h2><h3 class"author">Kostas Andreadis</h3><h4>Civil and Environmental Engineering, UMass Amherst</h4><h3 class="date">5 Dec 2024</h3>
+</section>
+<section>
+<section id="slide-orgca6fa9e">
+<h2 id="orgca6fa9e"></h2>
+<video controls
+  src="./images/nile.mp4">
+</video>
+</section>
+<section id="slide-orgfcf8268">
+<h3 id="orgfcf8268">Nilometers</h3>
+
+<figure id="orgd8e7147">
+<img src="images/nilometer.jpg" alt="nilometer.jpg" width="60%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-orgcfa85a8">
+<h2 id="orgcfa85a8">Global network of river gauges</h2>
+
+<figure id="orgc330f19">
+<img src="images/grdc.jpg" alt="grdc.jpg" width="90%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org8230bb4">
+<h2 id="org8230bb4">Changes in floodplain water levels</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_3_columns">
+
+<figure id="org2cd55ee">
+<img src="images/amazon_dhdt_high.png" alt="amazon_dhdt_high.png">
+
+</figure>
+</div><div class="one_of_3_columns">
+
+<figure id="orgee4ed43">
+<img src="images/amazon_dhdt_mid.png" alt="amazon_dhdt_mid.png">
+
+</figure>
+</div><div class="one_of_3_columns">
+
+<figure id="org29eb1b5">
+<img src="images/amazon_dhdt_gauge.png" alt="amazon_dhdt_gauge.png">
+
+</figure>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-orge663def">
+<h2 id="orge663def">Flood measurements</h2>
+
+<figure id="orga0a3617">
+<img src="images/mudmarks.jpg" alt="mudmarks.jpg" width="40%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org098207f" data-background="./images/lake.jpg" data-background-opacity="0.6" data-background-transition="slide">
+<h2 id="org098207f">How many lakes larger than 100 ⨉ 100 m are there in the world?</h2>
+</section>
+</section>
+<section>
+<section id="slide-orge9baa2b">
+<h2 id="orge9baa2b">How do water levels vary in space and time?</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_2_columns">
+
+<figure id="org1f667ae">
+<img src="images/flood_hazards.jpg" alt="flood_hazards.jpg">
+
+</figure>
+</div><div class="one_of_2_columns">
+
+<figure id="org09ab97f">
+<img src="images/water_resources.jpg" alt="water_resources.jpg">
+
+</figure>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-orga7c9fc7" data-background="./images/nasa_fleet.png" data-background-size="70%" data-background-opacity="0.8" data-background-transition="slide">
+<h2 id="orga7c9fc7">Remote sensing to the rescue</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgf5a2660" data-background="./images/goals.jpg" data-background-opacity="0.4" data-background-transition="slide">
+<h2 id="orgf5a2660">Goals for a new satellite mission</h2>
+<ul>
+<li class="fragment appear">Simultaneously measure water height and extent</li>
+<li class="fragment appear">Work in rivers, lakes and wetlands</li>
+<li class="fragment appear">Measurements over the entire globe</li>
+<li class="fragment appear">Collect frequent observations</li>
+<li class="fragment appear">Reasonable accuracy in measurements</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org4820267">
+<h2 id="org4820267">Early seeds&#x2026;</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_2_columns">
+
+<figure id="org6e617de">
+<img src="images/pollard2001.png" alt="pollard2001.png">
+
+</figure>
+</div><div class="one_of_2_columns">
+
+<figure id="orgb57323b">
+<img src="images/alsdorf2003.png" alt="alsdorf2003.png">
+
+</figure>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-org8870305">
+<h2 id="org8870305">SWOT satellite concept</h2>
+<video
+  data-autoplay
+  style="width:80%"
+  src="./images/jpl_swot.mp4"
+></video>
+</section>
+</section>
+<section>
+<section id="slide-orgee5bb83">
+<h2 id="orgee5bb83">The Surface Water Ocean Topography Mission</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_2_columns">
+<ul style="font-size:1.5em;margin-top:50px">
+<li class="fragment appear">SWOT uses Ka-band radars to measure <b>inundation extent</b> and <b>water surface elevation</b> globally</li>
+<li class="fragment appear">Observations every 10 days (on average)</li>
+<li class="fragment appear">Covers 78°N to 78°S</li>
+<li class="fragment appear">3.5 year nominal mission lifetime</li>
+<li class="fragment appear">Total budget ~$1.2B</li>
+
+</ul>
+</div><div class="one_of_2_columns">
+
+<figure id="org401f7b3">
+<img src="images/swot.png" alt="swot.png">
+
+</figure>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-orgf91bc87">
+<h2 id="orgf91bc87">Satellite frequency bands</h2>
+
+<figure id="orgf623ebd">
+<img src="images/frequencies.jpg" alt="frequencies.jpg" width="60%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org08ac78f">
+<h2 id="org08ac78f">International collaboration</h2>
+
+<figure id="org919599c">
+<img src="images/usa_france.jpg" alt="usa_france.jpg" width="50%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org061721d" data-background="./images/launch.png" data-background-size="85%" data-background-transition="slide">
+<h2 id="org061721d"></h2>
+</section>
+<section id="slide-org17efe1f">
+<h3 id="org17efe1f"></h3>
+<video
+data-autoplay
+src="./images/deploy.mp4"></video>
+</section>
+</section>
+<section>
+<section id="slide-orge061e9a">
+<h2 id="orge061e9a">January 20, 2023: First SWOT data (over Antarctica)</h2>
+
+<figure id="orgd6a5975">
+<img src="images/first_swot_data.png" alt="first_swot_data.png" width="80%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org80d206c">
+<h2 id="org80d206c">March 6, 2023: SWOT backscatter over rivers</h2>
+<div style="position: relative">
+
+<figure id="orgb08be99">
+<img src="images/backscatter.png" alt="backscatter.png" width="80%">
+
+</figure>
+<span class="fragment">
+
+<figure id="orgd5a8431">
+<img src="images/backscatter_rivers.png" alt="backscatter_rivers.png" width="80%" style="position:absolute;top:0;left:10%">
+
+</figure>
+</span></div>
+</section>
+</section>
+<section>
+<section id="slide-org90da695">
+<h2 id="org90da695">June 18, 2023: SWOT water surface elevations</h2>
+<p>
+Yukon-Kuskokwim Delta, Alaska
+</p>
+
+<figure id="org93ff9c5">
+<img src="images/swot_wse_alaska.png" alt="swot_wse_alaska.png" width="65%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org0b7933c">
+<h2 id="org0b7933c">SWOT validation on the North Saskatchewan River</h2>
+
+<figure id="org3fe680f">
+<img src="images/sask_validation.png" alt="sask_validation.png" width="60%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-orgf57feb0">
+<h2 id="orgf57feb0">SWOT profile of ~45 km of the North Saskatchewan River</h2>
+
+<figure id="org58eee28">
+<img src="images/wse_validation.png" alt="wse_validation.png" width="75%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org4cbab8f">
+<h2 id="org4cbab8f">SWOT observable rivers</h2>
+
+<figure id="orgc2f1253">
+<img src="images/swot_observable_rivers.jpg" alt="swot_observable_rivers.jpg" width="90%">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-orgc48134f" data-background="./images/meme.jpg" data-background-size="60%" data-background-transition="slide">
+<h2 id="orgc48134f"></h2>
+</section>
+</section>
+<section>
+<section id="slide-orga90e4d0">
+<h2 id="orga90e4d0">How can SWOT discharge help?</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_2_columns">
+<ul style="font-size:1.5em;margin-top:150px">
+<li>Current ground network is good in some places but not everywhere</li>
+
+</ul>
+<ul style="font-size:1.5em">
+<li class="fragment appear">SWOT will <font color="indianred">not replace</font> these gauges</li>
+<li class="fragment appear">But having discharge every 1-2 weeks all over the globe would be transformative!</li>
+
+</ul>
+</div><div class="one_of_2_columns">
+
+<figure id="orgdde3ac4">
+<img src="images/riggs2023.png" alt="riggs2023.png">
+
+</figure>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-org5ee094f">
+<h2 id="org5ee094f">Estimating discharge</h2>
+<div class="gridded_frame_with_columns">
+<div class="one_of_2_columns">
+<span class="fragment">
+
+<figure id="orgd8c8567">
+<img src="images/andreadis2007.png" alt="andreadis2007.png">
+
+</figure>
+</span>
+</div><div class="one_of_2_columns">
+<span class="fragment">
+
+<figure id="org6c749dc">
+<img src="images/flpes.png" alt="flpes.png">
+
+</figure>
+</span>
+</div></div>
+</section>
+</section>
+<section>
+<section id="slide-orgec30780">
+<h2 id="orgec30780">First look at SWOT discharge</h2>
+
+<figure id="orgdc38f83">
+<img src="images/q_validation.png" alt="q_validation.png" width="50%" style="margin-top:-30px">
+
+</figure>
+</section>
+</section>
+<section>
+<section id="slide-org8ed2859">
+<h2 id="org8ed2859">SWOT and floods</h2>
+<p>
+Major flood in Brazil in May, 2024
+</p>
+<div style="position: relative">
+
+<figure id="org95e5fda">
+<img src="images/preflood.png" alt="preflood.png" width="50%">
+
+</figure>
+<span class="fragment">
+
+<figure id="org0f3d80e">
+<img src="images/postflood.png" alt="postflood.png" width="50%" style="position:absolute;top:0;left:24.1%">
+
+</figure>
+</span></div>
+</section>
+<section>
+<video
+data-autoplay
+src="./images/ukraine.mp4"></video>
+</section>
+</section>
+<section>
+<section id="slide-orgf75bc51">
+<h2 id="orgf75bc51">Key takeaways</h2>
+<ul style="font-size:1.5em;margin-top:50px">
+<li class="fragment appear">We've been working on SWOT for a <i>long</i> time</li>
+<li class="fragment appear">Preliminary results look very promising for measuring water surface elevation and inundation extent in rivers, lakes, and wetlands</li>
+<li class="fragment appear">Fully understanding SWOT's capabilities is a work in progress</li>
+<li class="fragment appear">Global and local science already happening!</li>
+<li class="fragment appear">Data are publicly available <a href="https://podaac.jpl.nasa.gov/SWOT">https://podaac.jpl.nasa.gov/SWOT</a></li>
+<li class="fragment appear">User-friendly platforms available (e.g. Hydrocron)</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org42aa08e" data-background="./images/cover.jpg" data-background-opacity="0.4" data-background-transition="slide">
+<h2 id="org42aa08e">Questions?</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+width: "100%",
+height: "100%",
+
+transition: 'convex',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealHighlight, RevealZoom, RevealNotes ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
